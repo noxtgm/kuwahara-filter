@@ -1,0 +1,52 @@
+    return 1;
+}
+
+// Calculate the kernel's mean and variance
+float4 GetKernelMeanAndVariance(float2 UV, float4 Range, float2x2 RotationMatrix) {
+    float2 TexelSize = View.BufferSizeAndInvSize.zw;
+    float3 Mean = float3(0, 0, 0);
+    float3 Variance = float3(0, 0, 0);
+    float Samples = 0;
+    
+    // Sample in a grid using 2 for loops
+    for (int x = Range.x; x <= Range.y; x++) {
+        for (int y = Range.z; y <= Range.w; y++) {
+            float2 Offset = mul(float2(x, y) * TexelSize, RotationMatrix);  // Get the sample pixel’s offset and convert it to UV space
+            float3 PixelColor = SceneTextureLookup(UV + Offset, 14, false).rgb; // Use the offset to get the sample pixel’s color
+            Mean += PixelColor;
+            Variance += PixelColor * PixelColor;
+            Samples++;
+        }
+    }
+    
+    Mean /= Samples;
+    Variance = Variance / Samples - Mean * Mean;
+    float TotalVariance = Variance.r + Variance.g + Variance.b;  // Variance is spread across RGB channels so you must add all 3 together to get the total variance
+    return float4(Mean.r, Mean.g, Mean.b, TotalVariance);
+}
+
+// Calculate the local orientation by doing a convolution pass using Sobel
+float GetPixelAngle(float2 UV) {
+    float2 TexelSize = View.BufferSizeAndInvSize.zw;
+    float GradientX = 0; // Gradient for the horizontal direction
+    float GradientY = 0; // Gradient for the vertical direction
+    float SobelX[9] = {-1, -2, -1, 0, 0, 0, 1, 2, 1}; // Horizontal Sobel kernel as an array
+    float SobelY[9] = {-1, 0, 1, -2, 0, 2, -1, 0, 1}; // Vertical Sobel kernel as an array
+    int i = 0; // Used to access each element in SobelX and SobelY
+    
+    // Perform convolution using the SobelX and SobelY kernels
+    for (int x = -1; x <= 1; x++) {
+        for (int y = -1; y <= 1; y++) {
+            // Get the sample pixel’s color, makes it easier to calculate the gradients of the image as a whole instead of getting the gradients for each color channel
+            float2 Offset = float2(x, y) * TexelSize;
+            float3 PixelColor = SceneTextureLookup(UV + Offset, 14, false).rgb;
+            float PixelValue = dot(PixelColor, float3(0.3,0.59,0.11)); // Desaturate the color to convert it into a single grayscale value
+            
+            // Multiply the pixel’s grayscale value with the corresponding kernel element for both kernels
+            GradientX += PixelValue * SobelX[i];
+            GradientY += PixelValue * SobelY[i];
+            i++; // Increment to hold the index for the next kernel element
+        }
+    }
+    
+    return atan(GradientY / GradientX);
