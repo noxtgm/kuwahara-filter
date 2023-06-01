@@ -1,5 +1,5 @@
 # Kuwahara Filter
-Kuwahara filter for Unreal Engine 4 and 5.
+Kuwahara filter for Unreal Engine 4 and 5 (pics soon).
 
 ## ⚙️ Installation
 
