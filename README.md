@@ -18,4 +18,4 @@ Kuwahara filter for Unreal Engine 4 and 5 (pics soon).
 
 ## 🔗 Contact
 
-[@NoxTGM on all socials](https://bento.me/noxtgm)
+[@NoxTGM on all socials](https://noxtgm.me)
