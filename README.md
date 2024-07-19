@@ -1,6 +1,6 @@
 <div align=center style="text-align: center;">
 <h1>Kuwahara Filter</h1>
-Kuwahara filter that, as far as I'm aware, works for both Unreal Engine 4.X and 5.X (if not contact me).
+Kuwahara filter that works for both Unreal Engine 4.X and, as far as I'm aware, 5.X (if not contact me).
 </div>
 
 ###
@@ -20,7 +20,7 @@ Kuwahara filter that, as far as I'm aware, works for both Unreal Engine 4.X and 
 
 <div align=center style="text-align: center;"><h2>LICENSE</h2></div>
 
-[Mozilla Public License 2.0](https://choosealicense.com/licenses/mpl-2.0/)
+[MIT License](https://choosealicense.com/licenses/mit/)
 
 ###
 
