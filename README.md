@@ -1,11 +1,11 @@
-<div align=center style="text-align: center;">
-<h1>Kuwahara Filter</h1>
-Kuwahara filter that works for both Unreal Engine 4.X and, as far as I'm aware, 5.X (if not contact me).
-</div>
+# Kuwahara Filter
 
-###
+Adjustable Kuwahara filter effect for Unreal Engine's post process component.
 
-<div align=center style="text-align: center;"><h2>INSTALLATION</h2></div>
+> [!CAUTION]
+>  that works for both Unreal Engine 4.X and, as far as I'm aware, 5.X (if not contact me).
+
+## 📖 Installation
 
 * Download the files and paste them inside your UE project folder
   - For example, let's say you have a UE project named `Kuwahara Filter`
@@ -14,16 +14,14 @@ Kuwahara filter that works for both Unreal Engine 4.X and, as far as I'm aware, 
 * To use them, create a `Post Process Volume`
 * Inside its settings navigate to `Rendering Features > Post Process Materials > Array`
 * Create a new element and select the kuwahara filter material instance
-* P.S. If the effect of the filter isn't applied in the entire scene, remember to check `Infinite Extent` in the post process' settings
 
-###
+> [!NOTE]
+>  If the effect of the filter isn't applied in the entire scene, remember to check `Infinite Extent` in the post process' settings.
 
-<div align=center style="text-align: center;"><h2>LICENSE</h2></div>
+## 📄 License
 
-[MIT License](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/)
 
-###
+## 🔗 Links
 
-<div align=center style="text-align: center;"><h2>LINKS</h2></div>
-
-<a href="https://noxtgm.me" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/NSwlxNu.png" alt="portfolio" width="40" height="40"/></a> <a href="https://github.com/noxtgm" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/LwT8Wxa.png" alt="github" width="40" height="40"/></a> <a href="https://twitter.com/noxtgm" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/P3s7bOl.png" alt="twitter" width="40" height="40"/></a> <a href="https://noxtgm.itch.io/" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/d9pIWxO.png" alt="itchio" width="40" height="40"/></a> <a href="https://next.nexusmods.com/profile/noxtgm" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/la4rbPq.png" alt="nexusmods" width="40" height="40"/></a>
+<a href="https://noxtgm.me" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/H2NbhsL.png" alt="portfolio" width="40" height="40"/></a> <a href="https://noxtgm.itch.io/" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/d9pIWxO.png" alt="itchio page" width="40" height="40"/></a> <a href="https://next.nexusmods.com/profile/noxtgm" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/la4rbPq.png" alt="nexusmods page" width="40" height="40"/></a>
