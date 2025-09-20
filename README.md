@@ -3,7 +3,7 @@
 Adjustable Kuwahara filter effect for Unreal Engine's post process component.
 
 > [!CAUTION]
-> Should work in both Unreal Engine 4.X and, as far as I'm aware, 5.X (if not please contact me).
+> Should work in both Unreal Engine 4.X and, as far as I'm aware, 5.X (if not please contact me at contact@noxtgm.me).
 
 ## 📖 Installation
 
@@ -24,4 +24,4 @@ Adjustable Kuwahara filter effect for Unreal Engine's post process component.
 
 ## 🔗 Links
 
-<a href="https://buymeacoffee.com/noxtgm" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/XMrXLUD.png" alt="buymeacoffee page" width="40" height="40"/></a> <a href="https://next.nexusmods.com/profile/noxtgm" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/la4rbPq.png" alt="nexusmods page" width="40" height="40"/></a> <a href="https://noxtgm.itch.io" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/d9pIWxO.png" alt="itch.io page" width="40" height="40"/></a>
+<a href="https://noxtgm.me" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/lWqe0Ci.png" alt="portfolio" width="40" height="40"/></a> <a href="https://buymeacoffee.com/noxtgm" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/XMrXLUD.png" alt="buymeacoffee page" width="40" height="40"/></a> <a href="https://next.nexusmods.com/profile/noxtgm" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/la4rbPq.png" alt="nexusmods page" width="40" height="40"/></a> <a href="https://noxtgm.itch.io" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/d9pIWxO.png" alt="itch.io page" width="40" height="40"/></a>
