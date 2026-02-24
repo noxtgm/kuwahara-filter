@@ -20,8 +20,8 @@ Adjustable Kuwahara filter effect for Unreal Engine's post process component.
 
 ## 📄 License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT License](https://choosealicense.com/licenses/mit/)
 
-## 🔗 Links
+<br>
 
-<a href="https://noxtgm.me" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/lWqe0Ci.png" alt="portfolio" width="40" height="40"/></a> <a href="https://buymeacoffee.com/noxtgm" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/XMrXLUD.png" alt="buymeacoffee page" width="40" height="40"/></a>
+<a href="https://ko-fi.com/noxtgm" target="_blank" rel="noreferrer"><img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG00a3RqYTBzcmo2a2UxZGZ6bXl2dDY5Z2w0YmQ0Y2RxMWd0aWM4OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/bZgsAwXUIVU2tcKn7s/giphy.gif" alt="Support me on Ko-fi" width="240" height="55"/></a>
