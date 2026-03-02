@@ -2,7 +2,7 @@
 
 Adjustable Kuwahara filter effect for Unreal Engine's post process component.
 
-> [!CAUTION]
+> [!IMPORTANT]
 > Should work in both Unreal Engine 4.X and, as far as I'm aware, 5.X (if not please contact me).
 
 ## 📖 Installation
