@@ -20,7 +20,7 @@ Adjustable Kuwahara filter effect for Unreal Engine's post process component.
 
 ## 📄 License
 
-[MIT License](https://choosealicense.com/licenses/mit/)
+[CC0](https://choosealicense.com/licenses/cc0-1.0/)
 
 <br>
 
